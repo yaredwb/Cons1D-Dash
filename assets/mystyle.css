@@ -1,0 +1,74 @@
+.banner {
+  height: 75px;
+  margin: 0px -10px 10px;
+  background-color: rgb(83, 140, 226);
+  border-radius: 2px;
+}
+
+.banner h2{
+  color: rgb(255, 255, 255);
+  margin-left: 1.5%;
+  display: inline-block;
+}
+
+.banner Img{
+  position: relative;
+  float: right;
+  right: 10px;
+  height: 75px;
+}
+
+.container-mod {
+  position: relative;
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 1250px;
+  padding: 0px 10px 15px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 5px 5px rgba(205, 204, 204, 0.4);
+}
+
+hr.vertical-line {
+  width: 0px;
+  background-color: black;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.boundary {
+  border-radius: 5px;
+  border-width: 1px 1px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216);
+  border-image: initial;
+  padding: 0px 10px 0px 10px;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer Img{
+  opacity: 0.4;  
+  height: 20px;
+  margin-left: 20px;
+}
+
+.footer P{
+  font-size: 0.75em;
+  float: right;
+  margin-right: 20px;
+}
+
+Img:hover {
+  opacity: 1.0;
+}
+
+
