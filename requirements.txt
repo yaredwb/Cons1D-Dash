@@ -3,17 +3,6 @@ dash-core-components==0.43.1
 dash-html-components==0.13.5
 dash-renderer==0.18.0
 dash-table==3.4.0
-dask==1.1.2
-dask-core==1.1.2
-datashape==0.5.4
-decorator==4.3.2
-flask==1.0.2
-flask-compress==1.4.0
-flask-cors==3.0.7
 numpy==1.15.4
-numpy-base==1.15.4
-numpydoc==0.8.0
-pandas==0.24.1
 plotly==3.6.1
-pylint==2.2.2
 python==3.6.8
