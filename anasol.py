@@ -32,8 +32,7 @@ def analyticalSolution(H, cv, uo, T_range, drainage='tb'):
     u[:,0] = 0.0
     u[:,-1] = 0.0
     z_start = 1
-    z_end = len(z) - 1
-    h = H/2.0
+    z_end = len(z) - 1    
   elif drainage == 't':
     h = H
     z = np.linspace(0, h, N)
