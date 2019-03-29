@@ -12,6 +12,8 @@ mathjax = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?confi
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, static_folder='static')
 app.scripts.append_script({ 'external_url' : mathjax })
 
+server = app.server
+
 app.title = 'Consolidation 1D'
 
 app.layout = html.Div([
