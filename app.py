@@ -283,4 +283,4 @@ def updateGraph2(H, cv, uo, selected_range, drainage):
   ]
 
 if __name__ == "__main__":
-  app.run_server(debug=False)
+  app.run_server(debug=True)
