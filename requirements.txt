@@ -5,4 +5,3 @@ dash-renderer==0.18.0
 dash-table==3.4.0
 numpy==1.15.4
 plotly==3.6.1
-python==3.6.8
