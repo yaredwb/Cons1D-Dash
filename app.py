@@ -8,7 +8,7 @@ from anasol import analyticalSolution
 
 external_scripts = [
   {
-    'src': 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML',
+    'src': 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full.js',
     'async': 'true'
   }
 ]
