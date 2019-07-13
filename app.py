@@ -6,17 +6,11 @@ from dash.dependencies import Input, Output, State
 import theory as theory
 from anasol import analyticalSolution
 
-external_scripts = [
-  {
-    'src': 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full.js',
-    'async': 'true'
-  }
-]
+mathjax = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full.js'
 
-app = dash.Dash(__name__, external_scripts=external_scripts, static_folder='static')
-
+app = dash.Dash(__name__, static_folder='static')
+app.scripts.append_script({ 'external_url' : mathjax })
 server = app.server
-
 app.title = 'Consolidation 1D'
 
 app.layout = html.Div([
