@@ -8,7 +8,7 @@ from anasol import analyticalSolution
 
 mathjax = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full.js'
 
-app = dash.Dash(__name__, static_folder='static')
+app = dash.Dash(__name__)
 app.scripts.append_script({ 'external_url' : mathjax })
 server = app.server
 app.title = 'Consolidation 1D'
