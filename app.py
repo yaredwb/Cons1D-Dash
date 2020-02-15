@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output, State
 import theory as theory
 from anasol import analyticalSolution
 
-mathjax = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full.js'
+mathjax = "https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"
 
 app = dash.Dash(__name__)
 app.scripts.append_script({ 'external_url' : mathjax })
