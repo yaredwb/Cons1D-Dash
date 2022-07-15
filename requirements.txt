@@ -4,5 +4,5 @@ dash-html-components==0.13.5
 dash-renderer==0.18.0
 dash-table==3.4.0
 gunicorn==19.6.0
-numpy==1.15.4
+numpy==1.22.0
 plotly==3.6.1
